@@ -72,14 +72,6 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-
-Example command:
-
-```sh
- gem install rails
-```
-
-
 ### Setup
 
 Clone this repository to your desired folder:
@@ -89,7 +81,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:sumon766/hello-react-rails.git
+  git clone git@github.com:sumon766/hello-rr-frontend.git
 ```
 -
 
@@ -102,7 +94,7 @@ Example command:
 
 ```sh
   cd my-project
-  gem install
+  npm install
 ```
 -
 
@@ -114,11 +106,19 @@ To run the project, execute the following command:
 Example command:
 
 ```sh
-  bundle exec rails server
+  npm start
+```
 
-  OR
+### Rails API URL
 
-  ./bin/dev
+```sh
+  http://127.0.0.1:3000/api/v1/random_greeting
+```
+
+### Backend Repo URL
+
+```sh
+  https://github.com/sumon766/hello-rr-backend
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
